@@ -42,8 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     var productListViewModel = Provider.of<ProductListViewModel>(context);
-    return SafeArea(
-      child: _buildAllProductList(productListViewModel),
+    return Scaffold(
+      body: _buildAllProductList(productListViewModel),
     );
   }
 }

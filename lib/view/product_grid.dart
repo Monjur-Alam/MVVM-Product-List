@@ -33,7 +33,7 @@ class ProductGrid extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    height: 100,
+                    height: 80,
                     child: CircleImage(
                       imageUrl: data.product_img_url,
                     ),
